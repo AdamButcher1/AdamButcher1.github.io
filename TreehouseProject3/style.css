@@ -1,0 +1,170 @@
+.banner {
+	text-align: center;
+	overflow: hidden;
+	background-color: #000;
+	color: #FFF;
+	font-family: Georgia;
+}
+
+.signup {
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.signup-desc {
+	position: relative;
+	bottom: 20px;
+	text-align: center;
+	color: #DCDCDC;
+	font-size: 1.25em;
+	border-bottom: 8px solid #000;
+	padding-bottom: 40px;
+}
+.contact_title {
+	position: relative;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Georgia;
+	bottom: 10px;
+	padding-bottom: 20px;
+}
+.news_header {
+	bottom: 20px;
+	border-top: 5px solid #000;
+	padding-top: 40px;
+}
+
+.news_title {
+	position: relative;
+	bottom: 40px;
+	padding-top: 40px;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Georgia;
+}
+
+ul input {
+	border: none;
+	background-color: #d3d3d3;
+	border-radius: 10px;
+	width: 100%;
+	height: 40px;
+}
+ul {	
+	list-style: none;
+	position: relative;
+	bottom: 30px;
+}
+
+form li {
+	margin-left: -39.5px;
+}
+
+fieldset {
+	border: none;
+}
+
+#state {
+	border: none;
+	background-color: #d3d3d3;
+	border-radius: 10px;
+	width: 100%;
+	height: 40px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+
+input:focus,
+textarea:focus {
+	border-style: solid;
+	border-width: 1px;
+}
+
+::-webkit-input-placeholder {
+   color: #808080;
+   text-align: right;
+}
+
+:-moz-placeholder {
+   color: #808080;
+   text-align: right;
+
+}
+
+textarea {
+	border:none;
+	background-color: #d3d3d3;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+}
+
+button {
+  padding: 19px 39px 19px 39px;
+  color: #FFF;
+  background-color: #008080;
+  font-size: 18px;
+  text-align: center;
+  font-family: Georgia;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #008080;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+
+footer {
+	color: #808080;
+	padding-top: 20px;
+	text-align: center;
+	font-style: italic;
+}
+
+#zip {
+	margin-bottom: 100px;
+	width: 50%;
+}
+
+@media (min-width: 760px) {
+
+	form li {
+		margin-left: 0;
+	}
+
+	ul li {
+		display: inline-block;
+		margin: 15px;
+	}
+
+	.container {
+	margin: 10% 15% 0 15%;
+	}
+
+	li label {
+		margin-left: -53px;
+		padding-top: 10px;
+		position: absolute;
+		width: 27%;
+	}
+	label {
+		
+		
+	}
+
+	#name,#mail,#phone,#street,#city,#state,#zip {
+		position: absolute;
+		width: 73%;
+		margin-left: 100px;
+		margin-bottom: 80px;
+	}
+
+	#zip {
+		position: absolute;
+		width: 36.5%;
+		margin-left: 100px;
+		margin-bottom: 80px;
+}

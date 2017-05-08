@@ -1,0 +1,188 @@
+body {
+	background-color: #F5F5F5;
+}
+
+.main-header {
+	overflow: hidden;
+	height:50%;
+	padding-bottom: 50px;
+}
+
+.name, ul h1 {
+	font-family: arial;
+	text-align: center;
+}
+
+.main-nav li {
+	font-family: arial;
+	text-align: center;
+	background-color: #FFF;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	list-style: none;
+}
+
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.footer-info {
+	 background-color: #FFF;
+}
+
+
+.name-footer {
+	font-family: arial;
+	float: left;
+	display: inline;
+}
+
+.nav-footer {
+	float:right;
+	display: inline;
+	padding:10px;
+	font-family: arial;
+}
+
+.info {
+	font-family: arial;
+	text-align: center;
+}
+
+.profile-pic {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.portfolio {
+	overflow: hidden;
+	background-color: #FFF;
+}
+
+.contact {
+	text-align: center;
+	font-family: arial;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+p {
+	font-family: arial;
+}
+
+li {
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+	color: #000;
+}
+
+li img {
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+a:hover {
+	color: blue;
+}
+
+a {
+	background-color: #82E0AA;
+}
+
+p {
+	text-align: center;
+}
+
+.footer-info {
+	display: none;
+}
+
+
+
+@media (min-width: 768px) {
+
+	.footer-info {
+		display: inline;
+	}
+
+	.small-footer-info {
+		display: none;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	.portfolio ul li {
+		float:left;
+		display: block;
+		width: 45%;
+		margin: 2.5%;
+	}
+
+	.container {
+		width: 85%;
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+
+	.main-nav {
+		padding-left: 0px;
+	}
+
+	.main-nav li{
+		display: inline-block;
+		margin: 12px;
+	}
+
+	.info {
+		float:left;
+		width: 45%;
+	}
+
+	.profile-pic {
+		width: 45%;
+		float:right;
+	}
+
+	
+}
+
+@media (min-width: 1024px) {
+	.portfolio ul li {
+		float: left;
+		width: 25%;
+		margin: 4.1666%;
+	}
+
+	.profile-pic {
+		clear: both;
+	}
+
+	#realname{
+		float:left;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li{
+		float: left;
+		margin-left: 12px;
+	}
+
+}
