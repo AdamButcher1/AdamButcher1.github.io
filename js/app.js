@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 
 $(".speech").hide().fadeIn(2000);
+$(".speech-author").hide().fadeIn(2000);
 });
 
 function showDesc(num) {
