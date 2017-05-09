@@ -12,11 +12,6 @@
 #computer {
 	width: 100%;
 }
-
-#copyright {
-	color: white;
-}
-
 #portfolio {
 	background-color: orange;
 	overflow: hidden;
@@ -60,8 +55,9 @@ h1 {
 	text-align: center;
 }
 
-h1,h2{
+h1,h2, #copyright{
 	color: white;
+	padding: 20px;
 }
 
 li {
@@ -95,6 +91,8 @@ ul.contactinfo li:hover {
 	z-index: 1;
 }
 
+
+
 .main-nav li {
 	list-style-type: none;
 	margin: 5px;
@@ -120,6 +118,10 @@ ul.contactinfo li:hover {
   transform: rotate(5deg);
 } 
 
+.speech {
+	text-align: center;
+	margin-top: 100px;
+}
 
 @media (min-width: 503px) {
 	#Saitama {
